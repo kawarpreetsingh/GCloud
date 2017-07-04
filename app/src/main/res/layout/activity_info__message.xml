@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.lenovo.gcloud.Info_Message"
+    android:orientation="vertical">
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Where do you want to save call logs?"
+    android:textSize="20dp"
+    android:layout_gravity="center"
+    android:layout_margin="10dp"
+    />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <Button
+        android:layout_margin="20dp"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="In file"
+        android:textAllCaps="false"
+        android:textSize="20dp"
+        android:layout_gravity="center"
+        android:background="@drawable/button_style_green_with_border"
+        android:textColor="#ffffff"
+        android:id="@+id/buttonInFile"
+        android:onClick="click"
+        />
+        <Button
+        android:layout_margin="20dp"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="In Phone"
+        android:textAllCaps="false"
+        android:textSize="20dp"
+        android:layout_gravity="center"
+        android:background="@drawable/button_style_green_with_border"
+        android:textColor="#ffffff"
+        android:id="@+id/buttonInPhone"
+        android:onClick="click"
+        />
+    </LinearLayout>
+</LinearLayout>

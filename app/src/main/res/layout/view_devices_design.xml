@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:weightSum="10"
+    android:layout_marginTop="10dp"
+    >
+    <ImageView
+        android:layout_weight="3"
+        android:layout_width="0dp"
+        android:layout_height="100dp"
+        android:src="@drawable/user_icon"
+        android:id="@+id/imageView"/>
+    <LinearLayout
+        android:layout_weight="7"
+        android:layout_width="0dp"
+        android:layout_height="100dp"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Manufacturer : "
+            android:textSize="20dp"
+            android:id="@+id/textViewManufacturer"
+            android:textColor="#000000"
+           />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Model No : "
+            android:textSize="20dp"
+            android:id="@+id/textViewModelNo"
+            android:textColor="#000000"/>
+    </LinearLayout>
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#a6a1a1"></LinearLayout>
+</LinearLayout>
